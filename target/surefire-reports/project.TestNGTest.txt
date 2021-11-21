@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: project.TestNGTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 2, Errors: 0, Skipped: 9, Time elapsed: 38.528 s <<< FAILURE! - in project.TestNGTest
+verifyPageTitleTest(project.TestNGTest)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null
+	at project.TestNGTest.verifyPageTitleTest(TestNGTest.java:37)
+
+tearDown(project.TestNGTest)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+	at project.TestNGTest.tearDown(TestNGTest.java:161)
+

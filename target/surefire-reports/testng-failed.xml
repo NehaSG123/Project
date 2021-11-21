@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="project.TestNGTest">
+        <methods>
+          <include name="FoodTrendsScriptTest"/>
+          <include name="verifyPageTitleTest"/>
+          <include name="setUp"/>
+          <include name="PopularTakewaysScriptTest"/>
+          <include name="tearDown"/>
+          <include name="BookTableScriptTest"/>
+        </methods>
+      </class> <!-- project.TestNGTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
